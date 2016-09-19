@@ -9,7 +9,8 @@ public class hw01_105021026 {
 		System.out.print("請輸入n:");
 		Scanner scn =new Scanner(System.in);
 		double a =scn.nextDouble();
-		System.out.print("");
+		double b =Math.ceil(Math.log(a)/Math.log(2));
+		System.out.print("共需要"+ b +"位元!");
 	}
 
 }
